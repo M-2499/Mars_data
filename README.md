@@ -3,7 +3,7 @@
 
 **Introduction**
 
-Welcome to the Mars Data Scraping and Analysis project! In this repository, you'll find a collection of Jupyter Notebook files that showcase the process of extracting and analyzing data related to Mars. Our goal is to utilize web scraping techniques to gather valuable insights about Mars news articles and temperature data. By combining these techniques with data analysis using Python libraries, we aim to uncover intriguing patterns and information about the Martian environment.
+In this repository, you'll find a collection of Jupyter Notebook files that showcase the process of extracting and analyzing data related to Mars. My goal is to utilize web scraping techniques, with the aid of tools like Splinter and Beautiful Soup, to gather valuable insights about Mars news articles and temperature data . By combining these techniques with data analysis using Python libraries, I aim to uncover intriguing patterns and information about the Martian environment.
 
 **Tools Utilized**
 
@@ -13,6 +13,19 @@ Throughout this project, we harness the power of the following tools:
 - [Pandas](https://pandas.pydata.org/): A versatile data manipulation library that empowers us to efficiently manage, explore, and analyze our collected data.
 - [Matplotlib](https://matplotlib.org/): A renowned data visualization library that transforms data into meaningful visual representations, aiding our analysis.
 
+
+
+
+**Dependencies**
+
+Make sure you have the following dependencies installed before you begin:
+
+- Beautiful Soup: `pip install beautifulsoup4`
+- Pandas: `pip install pandas`
+- Matplotlib: `pip install matplotlib`
+- Splinter: `pip install splinter`
+
+  
 **Part 1: Scrape Mars News Articles**
 
 Begin your exploration by opening the Jupyter Notebook titled `part_1_mars_news.ipynb` located within the `starter_code` folder. This notebook guides you through the process of automating web browsing to scrape titles and preview text from Mars news articles. Here's a sneak peek of the steps:
@@ -59,7 +72,6 @@ This project serves as a testament to the synergy between web scraping, data ana
 
 While we've traversed the landscape of scraping news articles and analyzing Martian weather, an array of exciting possibilities for further exploration beckons:
 
-- **Sentiment Analysis of News Articles:** Gauge the sentiment of scraped news articles to understand public sentiment towards Martian events.
 - **Correlation Insights:** Investigate potential correlations between temperature and atmospheric pressure data.
 - **Long-Term Trends:** Extend your analysis to encompass data spanning multiple Martian years for insights into long-term climate trends.
 - **Enhanced Data Visualization:** Create intricate visualizations to illuminate the relationships between temperature, pressure, and Martian months.
